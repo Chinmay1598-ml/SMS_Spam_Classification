@@ -1,0 +1,11 @@
+Model,Accuracy,Precision,Recall,F1 Score,Best Hyperparameters
+"Logistic Regression (Baseline, imbalanced)",0.9704035874439462,1.0,0.7785234899328859,0.8754716981132076,
+"Logistic Regression (Tuned, imbalanced)",0.9802690582959641,0.9922480620155039,0.8590604026845637,0.920863309352518,"{'clf__C': 10, 'clf__solver': 'liblinear'}"
+"SVM (Baseline, imbalanced)",0.979372197309417,1.0,0.8456375838926175,0.9163636363636364,
+"SVM (Tuned, imbalanced)",0.9766816143497757,0.948905109489051,0.87248322147651,0.9090909090909091,"{'clf__C': 10, 'clf__kernel': 'linear'}"
+"Random Forest (Baseline, imbalanced)",0.9766816143497757,1.0,0.825503355704698,0.9044117647058824,
+"Random Forest (Tuned, imbalanced)",0.9766816143497757,1.0,0.825503355704698,0.9044117647058824,"{'clf__max_depth': None, 'clf__min_samples_split': 5, 'clf__n_estimators': 200}"
+"KNN (Baseline, imbalanced)",0.915695067264574,1.0,0.3691275167785235,0.5392156862745098,
+"KNN (Tuned, imbalanced)",0.9461883408071748,1.0,0.5973154362416108,0.7478991596638656,"{'clf__n_neighbors': 3, 'clf__weights': 'distance'}"
+"XGBoost (Baseline, imbalanced)",0.967713004484305,0.9448818897637795,0.8053691275167785,0.8695652173913043,
+"XGBoost (Tuned, imbalanced)",0.9704035874439462,0.953125,0.8187919463087249,0.8808664259927798,"{'clf__learning_rate': 0.2, 'clf__n_estimators': 200}"
