@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+wordcloud
+scikit-learn
+xgboost
+pretty-table
+joblib
+fastapi
+uvicorn
+pyqt5
